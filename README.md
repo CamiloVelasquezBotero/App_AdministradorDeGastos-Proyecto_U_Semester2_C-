@@ -11,3 +11,7 @@ Aplicación de consola desarrollada como **proyecto universitario en C#** para g
 - Menú interactivo en consola
 
 Proyect in Progress...
+
+## Integrantes:
+Heiner Goez Urrego
+Camilo Velasquez Botero
