@@ -7,7 +7,7 @@ public class SistemaMenu
         int opcion = 0;
         decimal saldo = 0;
 
-        while (opcion != 4)
+        while (opcion != 5)
         {
             MostrarMenu();
             opcion = LeerOpcion();
@@ -23,8 +23,11 @@ public class SistemaMenu
             else if (opcion == 3)
             {
                 MostrarSaldo(saldo);
+            } 
+            else if(opcion == 4) {
+                Movimientos.VerGastos();
             }
-            else if (opcion == 4)
+            else if (opcion == 5)
             {
                 Console.WriteLine("Saliendo del sistema...");
             }
@@ -41,7 +44,8 @@ public class SistemaMenu
         Console.WriteLine("1. Registrar ingreso");
         Console.WriteLine("2. Registrar gasto");
         Console.WriteLine("3. Ver saldo actual");
-        Console.WriteLine("4. Salir");
+        Console.WriteLine("4. Ver historial de gastos");
+        Console.WriteLine("5. Salir");
         Console.Write("Seleccione una opcion: ");
     }
 
